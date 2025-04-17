@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { onAuthChange } from "./utils/auth-functions";
 
 const WorkoutTracker = () => {
   const [exercises, setExercises] = useState([]);
@@ -67,5 +68,14 @@ const WorkoutTracker = () => {
     </div>
   );
 };
+
+onAuthChange((user) => {
+  if (user) {
+    console.log("User logged in:", user.email);
+    // update UI accordingly
+  } else {
+    console.log("User is logged out");
+  }
+});
 
 export default WorkoutTracker;
