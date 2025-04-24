@@ -1,8 +1,6 @@
 {
   "dependencies": {
-<<<<<<< HEAD
-    "firebase": "^11.6.0"
-=======
+
     "firebase": "^11.6.0",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
@@ -25,6 +23,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
->>>>>>> af81807b1c38f84ce8de08b093534b1ab3c8b158
   }
 }

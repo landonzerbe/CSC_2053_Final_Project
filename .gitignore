@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # Logs
 logs
 *.log
@@ -68,6 +68,9 @@ node_modules/
 
 # dataconnect generated files
 .dataconnect
-=======
+
 node_modules
->>>>>>> af81807b1c38f84ce8de08b093534b1ab3c8b158
+
+
+node_modules
+
