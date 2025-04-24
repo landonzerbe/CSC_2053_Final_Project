@@ -1,6 +1,6 @@
 'use client'
 import React from "react";
-import WorkoutTracker from "./WorkoutTracker";
+import WorkoutTracker from "./public/WorkoutTracker";
 
 function App() {
   return (
